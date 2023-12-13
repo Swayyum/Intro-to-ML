@@ -1,1 +1,22 @@
+Problem 1 (50pts):
 
+a. Build a Convolutional Neural Network, like what we built in lectures to classify the images across all 10 classes in CIFAR 10. You need to adjust the fully connected layer at the end properly concerning the number of output classes. Train your network for 300 epochs. Report your training time, training loss, and evaluation accuracy after 300 epochs. Analyze your results in your report and compare them against a fully connected network (homework 2) on training time, achieved accuracy, and model size. Make sure to submit your code by providing the GitHub URL of your course repository for this course.
+
+ 
+
+b. Extend your CNN by adding one more additional convolution layer followed by an activation function and pooling function. You also need to adjust your fully connected layer properly with respect to intermediate feature dimensions. Train your network for 300 epochs. Report your training time, loss, and evaluation accuracy after 300 epochs. Analyze your results in your report and compare your model size and accuracy over the baseline implementation in Problem1.a. Do you see any over-fitting? Make sure to submit your code by providing the GitHub URL of your course repository for this course.
+
+ 
+
+Problem 2 (50pts)
+
+a. Build a ResNet-based Convolutional Neural Network, like what we built in lectures (with skip connections), to classify the images across all 10 classes in CIFAR 10. For this problem, let’s use 10 blocks for ResNet and call it ResNet-10. Use similar dimensions and channels as we need in lectures. Train your network for 300 epochs. Report your training time, training loss, and evaluation accuracy after 300 epochs. Analyze your results in your report and compare them against problem 1.b on training time, achieved accuracy, and model size. Make sure to submit your code by providing the GitHub URL of your course repository for this course.
+
+ 
+
+b. Perform three additional training and evaluations for your ResNet-10 to assess the impacts of regularization on your ResNet-10.
+
+Weight Decay with lambda of 0.001
+Dropout with p=0.3
+Batch Normalization
+Report and compare your training time, training loss, and evaluation accuracy after 300 epochs across these three different pieces of training. Analyze your results in your report and compare them against problem 1. On training time, you achieved accuracy.
