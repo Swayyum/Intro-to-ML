@@ -1,0 +1,31 @@
+Problem 1 (30 pts):
+
+1. In our temperature prediction example, let’s change our model to a nonlinear system. Consider the following description for our model:
+
+w2 * t_u ** 2 + w1 * t_u + b.
+
+1.a Modify the training loop properly to accommodate this redefinition. 
+
+1.b Use 5000 epochs for your training. Explore different learning rates from 0.1 to 0.0001 (you need four separate trainings). Report your loss for every 500 epochs per training.
+
+1.c Pick the best non-linear model and compare your final best loss against the linear model that we did during the lecture. For this, visualize the non-linear model against the linear model over the input dataset, as we did during the lecture. Is the actual result better or worse than our baseline linear model?
+
+ 
+
+Problem 2 (40 pts):
+
+2.a. Develop preprocessing and a training loop to train a linear regression model that predicts housing price based on the following input variables:
+
+area, bedrooms, bathrooms, stories, parking
+
+For this, you need to use the housing dataset. For training and validation, use 80% (training) and 20% (validation) split. Identify the best parameters for your linear regression model based on the above input variables. In this case, you will have six parameters:
+
+2.b Use 5000 epochs for your training. Explore different learning rates from 0.1 to 0.0001 (you need four separate trainings). Report your loss and validation accuracy for every 500 epochs per training. Pick the best linear model.
+
+2.c. Compare your results against the linear regression done in homework 1. Do you see meaningful differences?
+
+ 
+
+Problem 3 (30 pts):
+
+Repeat all sections of problem 2 using all the input features from the housing price dataset.
