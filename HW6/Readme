@@ -1,0 +1,15 @@
+Problem 1 (40 pts):
+
+a. Develop a Fully Connected Neural Network with only one hidden layer (size of 32) to predict the housing value for the housing dataset. Make sure to include all input features. Compare your training loss value and validation results against the linear regression you implemented in Homework 5. Can you compare your model complexity (number of trainable parameters) against linear regression? Note: Perform 20%, and 80% split for training and validation.
+
+ 
+
+b. We will increase the network complexity by adding two additional hidden layers, the hidden layers overall. My suggestions for the size of layers are: 32, 64, 16, respectively. Please redesign the network and compare your training loss value and validation results against the linear regression you implemented in Homework 5 and Problem 1.a. Can you compare your model complexity? Note: Use the same 20%, and 80% split for training and validation.
+
+ 
+
+Problem 2 (60 pts):
+
+a. Create a fully connected Neural Network for all 10 classes in CIFAR-10 with only one hidden layer with a size of 512. Report your training time, training loss, and evaluation accuracy. Analyze your results in your report. Make sure to submit your code by providing the GitHub URL of your course repository for this course. (25pt)
+
+b. Extend your network with two more additional hidden layers, like the example we did in the lecture (pick the sizes of hidden layers properly). Train your network. Report your training time, loss, and evaluation accuracy after 300 epochs. Analyze your results in your report and compare your model size and accuracy over the baseline implementation in Problem 2.a. Do you see any over-fitting? Can you compare your model complexity against problem 2.a? Make sure to submit your code by providing the GitHub URL of your course repository for this course. (35pt)
